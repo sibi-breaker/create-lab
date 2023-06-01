@@ -1,0 +1,11 @@
+{
+  "if": {
+    "not": {
+      "field": "type",
+      "equals": "Microsoft.Compute/virtualMachines"
+    }
+  },
+  "then": {
+    "effect": "deny"
+  }
+}
